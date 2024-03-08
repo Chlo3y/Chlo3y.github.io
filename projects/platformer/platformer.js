@@ -70,9 +70,9 @@ createCollectables("cheese", 35,84, 6,0.5);
     // You must decide the wall you want the cannon on, the position on the wall, and the time between shots in milliseconds
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
-createCannon("right", 600,40,20,20);
-createCannon("left",300,12,20,20);
-createCannon("top", 300,30,20,20);
+createCannon("right", 600,40,60,60);
+createCannon("left",800,12,30,30);
+createCannon("top", 300,30,80,80);
 
 
 
