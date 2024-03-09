@@ -63,9 +63,9 @@ createPlatform(100,80,50,20);
     // You must decide on the collectable type, the x position, the y position, the gravity, and the bounce strength
     // Your collectable choices are 'database' 'diamond' 'cheese' 'kennedi' 'max' "star' and 'steve'; more can be added if you wish
     // example usage: createCollectable(type, x, y, gravity, bounce)
-createCollectable("diamond",850,650);
-createCollectable("kennedi",550,490);
-createCollectable("steve",250,410);
+createCollectable("diamond",800,650);
+createCollectable("kennedi",500,490);
+createCollectable("steve",200,410);
 
 
 
@@ -74,8 +74,8 @@ createCollectable("steve",250,410);
     // You must decide the wall you want the cannon on, the position on the wall, and the time between shots in milliseconds
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
-createCannon("right", 600,2000);
-createCannon("left",250,2500);
+createCannon("right", 600,3000);
+createCannon("left",250,3500);
 createCannon("top", 300,5000);
 
 
