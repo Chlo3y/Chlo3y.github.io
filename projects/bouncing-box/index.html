@@ -68,6 +68,7 @@
       turn it around!
       */
         var positionX = 0;
+        var points = 0;
 
         function update() {
           /* Your code here to increase positionX by 10 HERE*/
@@ -81,7 +82,9 @@
       the left side of the screen.
       */
         function handleBoxClick() {
-          positionX = 0; changeBoxText(1);
+          positionX = 0;
+          points = points + 1;
+          changeBoxText(points);
         }
       })();
     </script>
