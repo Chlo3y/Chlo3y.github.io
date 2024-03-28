@@ -69,10 +69,11 @@
       */
         var positionX = 0;
         var points = 0;
+        var speed = 10;
 
         function update() {
           /* Your code here to increase positionX by 10 HERE*/
-          positionX = positionX + 10;
+          positionX = positionX + speed;
           moveBoxto(positionX);
         }
 
@@ -84,6 +85,7 @@
         function handleBoxClick() {
           positionX = 0;
           points = points + 1;
+          speed = speed + 3;
           changeBoxText(points);
         }
       })();
