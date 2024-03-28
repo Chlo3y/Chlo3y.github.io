@@ -75,6 +75,13 @@
           /* Your code here to increase positionX by 10 HERE*/
           positionX = positionX + speed;
           moveBoxto(positionX);
+          if (positionX > boardWidth) {
+            //Change Direction of the Box**
+            speed = -speed;
+            if (positionX < 0) {
+              //Change speed to be positive**
+            }
+          }
         }
 
         /*
@@ -85,7 +92,12 @@
         function handleBoxClick() {
           positionX = 0;
           points = points + 1;
-          speed = speed + 3;
+         if (speed +=1){
+          speed + 3;
+         }
+         else if (speed >= -1){
+          speed - 3;
+         }
           changeBoxText(points);
         }
       })();
