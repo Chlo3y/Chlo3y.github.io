@@ -92,12 +92,11 @@
         function handleBoxClick() {
           positionX = 0;
           points = points + 1;
-         if (speed +=1){
-          speed + 3;
-         }
-         else if (speed >= -1){
-          speed - 3;
-         }
+          if ((speed += 1)) {
+            speed + 3;
+          } else if (speed >= -1) {
+            speed - 3;
+          }
           changeBoxText(points);
         }
       })();
