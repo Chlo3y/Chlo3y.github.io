@@ -74,14 +74,12 @@
         function update() {
           /* Your code here to increase positionX by 10 HERE*/
           positionX = positionX + speed;
-          moveBoxto(positionX);
+          moveBoxTo(positionX);
           if (positionX > boardWidth) {
-            //Change Direction of the Box**
             speed *= -1;
           }
             if (positionX < 0) {
               speed *= -1;
-              //Change speed to be positive**
             }
           }
         
