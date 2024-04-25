@@ -52,7 +52,7 @@ var init = function (window) {
             // TODO 4 : Update the circle's position //
             for (var i = 0; i < circles.length; i++) {
                 physikz.updatePosition(circles[i]);
-                game.checkCirclePosition(circle[i]);
+                game.checkCirclePosition(circles[i]);
               }
              
 
@@ -85,12 +85,12 @@ var init = function (window) {
             circle.y = 0;
         }
          
-        else if(circle.x < canvas.width){
-            circle.x = 0;
+        else if(circle.x < 0){
+            circle.x = canvas.width;
         }
 
-        else if(circle.y < canvas.height){
-         circle.y = 0;
+        else if(circle.y < 0){
+         circle.y = canvas.height;
         }
 
             // YOUR TODO 6 CODE ENDS HERE //////////////////////////
