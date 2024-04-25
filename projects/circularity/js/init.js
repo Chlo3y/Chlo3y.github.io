@@ -54,7 +54,7 @@ var init = function (window) {
                 physikz.updatePosition(circles[i]);
                 game.checkCirclePosition(circle[i]);
               }
-             }
+             
 
     }
 
