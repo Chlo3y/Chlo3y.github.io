@@ -21,10 +21,10 @@ var init = function (window) {
         
         // TODO 1 : Declare and initialize our variables
         var circle;
-        var circles = [];
+        var circles = [100];
 
         // TODO 2 : Create a function that draws a circle 
-        var drawCricle = function (){
+        function drawCricle(){
     circle = draw.randomCircleInArea(canvas, true, true, "#999", 2);
     physikz.addRandomVelocity(circle, canvas,10,10);
     view.addChild(circle);
